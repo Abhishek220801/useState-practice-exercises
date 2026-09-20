@@ -1,6 +1,6 @@
 // Implement a function to clear an input field when a button is pressed.
 
-import React, { useState } from 'react'
+import { useState } from 'react'
 
 const Ex13 = () => {
     const [inputVal, setInputVal] = useState("");
