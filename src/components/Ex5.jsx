@@ -1,3 +1,5 @@
+// Build a simple input field that updates the UI as the user types.
+
 import { useState } from "react"
 
 const Ex5 = () => {

@@ -1,3 +1,5 @@
+// Implement a password visibility toggle in an input field.
+
 import React, { useState } from 'react'
 
 const Ex6 = () => {

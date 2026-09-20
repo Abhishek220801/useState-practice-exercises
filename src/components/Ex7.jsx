@@ -1,3 +1,5 @@
+// Create a button that disables itself after being clicked once.
+
 import React, { useState } from 'react'
 
 const Ex7 = () => {

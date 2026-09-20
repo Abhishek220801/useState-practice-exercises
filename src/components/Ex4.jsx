@@ -1,3 +1,5 @@
+// Create a toggle switch for enabling/disabling a feature.
+
 import React, { useState } from 'react'
 
 const Ex4 = () => {

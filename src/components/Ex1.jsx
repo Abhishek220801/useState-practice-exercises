@@ -1,3 +1,5 @@
+// Build a show/hide image functionality in React.
+
 import { useEffect, useState } from 'react'
 
 const Ex1 = () => {
