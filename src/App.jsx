@@ -1,9 +1,9 @@
-import Ex38 from "./components/Ex38"
+import Ex41 from "./components/Ex41"
 
 const App = () => {
   return (
     <div>
-      <Ex38/>
+      <Ex41/>
     </div>
   )
 }
