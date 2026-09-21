@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import { useState } from 'react'
 
 const Ex24 = () => {
     const [text, setText] = useState("")
