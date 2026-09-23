@@ -3,9 +3,13 @@
 const Ex58 = () => {
   return (
     <div>
-        <form>
-            
-        </form>
+      <form>
+        <input type="text" placeholder="Fullname" className="border border-red-500"/>
+        <input type="email" placeholder="Email"/>
+        <input type="password" placeholder="Password"/>
+
+        <button className="bg-green-400 text-white px-4 py-1 rounded-2xl">Submit</button>
+      </form>
     </div>
   )
 }
