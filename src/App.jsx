@@ -8,7 +8,7 @@ const App = () => {
     const name = path.split("/").pop();
 
     if (name) {
-      const ImportedComponent = lazy(() => import(`./components/${name}`));
+      const ImportedComponent = lazy(() => import(`./components/${name[0].toUpperCase()+name.slice(1)}`));
       setDynamicComponent(() => ImportedComponent);
     }
   }, []);
